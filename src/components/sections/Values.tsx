@@ -78,7 +78,7 @@ export function Values() {
         <div className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
           <div>
             <p className="eyebrow">Mengapa Jussy</p>
-            <h2 className="mt-5 max-w-[16ch] font-display text-[clamp(2.6rem,6.6vw,6.2rem)] font-black leading-[1] tracking-[-0.03em]">
+            <h2 className="mt-5 max-w-[16ch] font-display text-[clamp(2.6rem,3.75vw,3.375rem)] font-black leading-[1.05] tracking-[-0.03em]">
               Biarkan buah{' '}
               <span className="font-script font-normal text-juice">berbicara.</span>
             </h2>
@@ -130,13 +130,13 @@ export function Values() {
 
               <div className="absolute inset-x-6 bottom-6 flex items-end justify-between gap-4 text-cream">
                 <div>
-                  <p className="text-[9px] font-semibold uppercase tracking-[0.28em] text-cream/60">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-cream/60">
                     0{index + 1}
                   </p>
                   <h3 className="mt-1 font-display text-xl font-bold leading-tight sm:text-2xl">
                     {story.title}
                   </h3>
-                  <p className="mt-1 text-xs text-cream/70">{story.caption}</p>
+                  <p className="mt-1 text-sm text-cream/70">{story.caption}</p>
                 </div>
                 <span
                   aria-hidden="true"
@@ -163,10 +163,10 @@ export function Values() {
               <p className="font-display text-[clamp(2.6rem,4vw,3.6rem)] font-black leading-none">
                 {item.stat}
               </p>
-              <p className="mt-3 text-[10px] font-semibold uppercase tracking-[0.26em] text-ink/50">
+              <p className="mt-3 text-[11px] font-bold uppercase tracking-[0.18em] text-ink/50">
                 {item.label}
               </p>
-              <p className="mt-3 max-w-[32ch] text-sm leading-relaxed text-ink/65">
+              <p className="mt-3 max-w-[32ch] text-base leading-relaxed text-ink/65">
                 {item.description}
               </p>
             </div>
@@ -182,7 +182,7 @@ export function Values() {
               (badge) => (
                 <span
                   key={badge}
-                  className="rounded-full border border-ink/15 px-3.5 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-ink/55"
+                  className="rounded-full border border-ink/15 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.16em] text-ink/55"
                 >
                   {badge}
                 </span>

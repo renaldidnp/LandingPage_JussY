@@ -34,7 +34,7 @@ export function Intro() {
         <div className="grid gap-10 sm:gap-16 lg:grid-cols-[1.12fr_0.88fr] lg:items-center lg:gap-10">
           <div>
             <p className="eyebrow">Cerita kami</p>
-            <h2 className="mt-5 font-display text-[clamp(2.5rem,5.5vw,5.2rem)] font-black leading-[1.02] tracking-[-0.025em]">
+            <h2 className="mt-5 font-display text-[clamp(2.5rem,3.6vw,3.25rem)] font-black leading-[1.05] tracking-[-0.025em]">
               Sebut saja kami
               <span className="mt-1 block font-script text-[1.02em] font-normal tracking-normal text-juice">
                 <span className="relative block h-[1.08em] overflow-hidden">
@@ -54,7 +54,7 @@ export function Intro() {
               </span>
             </h2>
 
-            <p className="mt-7 max-w-xl text-base leading-relaxed text-ink/70 sm:text-lg">
+            <p className="mt-7 max-w-xl text-base leading-relaxed text-ink/70">
               Berawal dari dapur rumah dan kebiasaan menyiapkan jus segar untuk
               keluarga. Kami percaya hal baik tidak perlu rumit: buah pilihan,
               tanpa gula tambahan, dan waktu yang cukup untuk menikmatinya.
@@ -63,7 +63,7 @@ export function Intro() {
             <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
               <a
                 href="#nilai"
-                className="link-underline -my-3 py-3 text-[13px] font-semibold uppercase tracking-[0.16em] text-ink"
+                className="link-underline -my-3.5 py-3.5 text-base font-semibold tracking-normal text-ink"
               >
                 Kenali kami &rarr;
               </a>
@@ -71,7 +71,7 @@ export function Intro() {
                 {['Sejak 2019', 'Bandung', 'Diperas dingin'].map((label) => (
                   <span
                     key={label}
-                    className="rounded-full border border-ink/15 px-3.5 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-ink/55"
+                    className="rounded-full border border-ink/15 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.16em] text-ink/55"
                   >
                     {label}
                   </span>
@@ -127,22 +127,22 @@ export function Intro() {
                 <p className="font-script text-[clamp(3rem,8vw,4.8rem)] leading-none text-cream drop-shadow-[0_10px_30px_rgba(10,12,10,0.35)]">
                   Jussy
                 </p>
-                <p className="mt-2 text-[9px] font-semibold uppercase tracking-[0.34em] text-cream/70">
+                <p className="mt-2 text-[10px] font-bold uppercase tracking-[0.26em] text-cream/70">
                   sejak 2019
                 </p>
               </div>
 
               <div className="absolute inset-x-4 bottom-4 rounded-2xl bg-cream/90 px-4 py-3 backdrop-blur">
-                <p className="text-[9px] font-semibold uppercase tracking-[0.24em] text-ink/50">
+                <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-ink/50">
                   Dapur jus kami
                 </p>
-                <p className="mt-1 text-sm font-semibold text-ink">
+                <p className="mt-1 text-base font-semibold text-ink">
                   Diperas segar setiap pagi.
                 </p>
               </div>
             </div>
 
-            <div className="absolute left-0 top-5 grid h-14 w-14 rotate-[-10deg] place-items-center rounded-full border border-ink/15 bg-cream text-center text-[8px] font-semibold uppercase leading-tight tracking-[0.14em] text-ink/70 shadow-lg sm:-left-6 sm:top-6 sm:h-20 sm:w-20">
+            <div className="absolute left-0 top-5 grid h-14 w-14 rotate-[-10deg] place-items-center rounded-full border border-ink/15 bg-cream text-center text-[9px] font-bold uppercase leading-tight tracking-[0.12em] text-ink/70 shadow-lg sm:-left-6 sm:top-6 sm:h-20 sm:w-20">
               <span>
                 100%
                 <br />

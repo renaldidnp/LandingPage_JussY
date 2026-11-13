@@ -31,7 +31,7 @@ function MarqueeRow({ words, reverse = false, offset = 0 }: MarqueeRowProps) {
                   palette[(index + offset) % palette.length]
                 }`}
               >
-                <span className="px-4 font-display text-[clamp(1.9rem,4.4vw,4rem)] font-black uppercase leading-none tracking-[-0.02em] sm:px-6">
+                <span className="px-4 font-display text-[clamp(2rem,4vw,3.6rem)] font-black uppercase leading-none tracking-normal sm:px-6">
                   {word}
                 </span>
                 <span className="h-2 w-2 rotate-45 bg-current opacity-70" />

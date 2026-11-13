@@ -112,13 +112,13 @@ export function Hero() {
             }}
           >
             <p className="eyebrow">Cold-pressed juice · Buah lokal</p>
-            <h1 className="hero-title mt-4 font-display text-[clamp(2.45rem,11vw,3.9rem)] font-black leading-[0.95] tracking-[-0.035em] sm:mt-5 sm:text-[clamp(3.3rem,8.2vw,8.2rem)]">
+            <h1 className="hero-title mt-4 font-display text-[clamp(2.6rem,12vw,3.6rem)] font-black leading-[0.98] tracking-[-0.03em] sm:mt-5 sm:text-[clamp(3.3rem,7.6vw,6.9rem)]">
               Momen segar,
               <span className="mt-1 block font-script text-[0.9em] font-normal tracking-normal text-juice">
                 diperas alami.
               </span>
             </h1>
-            <p className="hero-copy mt-4 max-w-md text-[15px] leading-relaxed text-ink/70 sm:mt-6 sm:text-lg">
+            <p className="hero-copy mt-4 max-w-md text-base leading-relaxed text-ink/70 sm:mt-6">
               Jus dari buah lokal pilihan, diperas dingin tanpa gula tambahan.
               Segar seperti baru dipetik — langsung ke botolmu.
             </p>
@@ -126,7 +126,7 @@ export function Hero() {
             <div className="hero-actions mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 sm:mt-8">
               <a
                 href="#produk"
-                className="group inline-flex items-center gap-2.5 rounded-full bg-ink px-6 py-3.5 text-[12px] font-semibold uppercase tracking-[0.16em] text-cream transition-colors duration-300 hover:bg-juice hover:text-ink"
+                className="group inline-flex items-center gap-2.5 rounded-full bg-ink px-6 py-3.5 text-base font-bold leading-none tracking-normal text-cream transition-colors duration-300 hover:bg-juice hover:text-ink"
               >
                 Lihat menu jus
                 <svg
@@ -146,13 +146,13 @@ export function Hero() {
               </a>
               <a
                 href="#cerita"
-                className="link-underline -my-3 py-3 text-[13px] font-semibold uppercase tracking-[0.16em] text-ink/70 transition-colors hover:text-ink"
+                className="link-underline -my-3.5 py-3.5 text-base font-semibold tracking-normal text-ink/70 transition-colors hover:text-ink"
               >
                 Cerita kami
               </a>
             </div>
 
-            <ul className="hero-tags mt-6 flex flex-wrap gap-x-5 gap-y-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-ink/45 sm:mt-9 sm:gap-x-6 sm:text-[10px]">
+            <ul className="hero-tags mt-6 flex flex-wrap gap-x-5 gap-y-2 text-[10px] font-bold uppercase tracking-[0.2em] text-ink/50 sm:mt-9 sm:gap-x-6">
               <li>Cold-pressed</li>
               <li>Tanpa gula</li>
               <li>Buah lokal</li>
@@ -215,13 +215,13 @@ export function Hero() {
               </motion.div>
 
               <div className="absolute bottom-0 right-0 rounded-2xl border border-ink/10 bg-cream/90 px-3 py-2 shadow-[0_20px_50px_-30px_rgba(10,12,10,0.6)] backdrop-blur sm:bottom-2 sm:right-2 sm:px-5 sm:py-3">
-                <p className="text-[8px] font-semibold uppercase tracking-[0.24em] text-ink/50 sm:text-[9px] sm:tracking-[0.26em]">
+                <p className="text-[9px] font-bold uppercase tracking-[0.2em] text-ink/55 sm:text-[10px] sm:tracking-[0.22em]">
                   Produk utama
                 </p>
-                <p className="mt-0.5 font-display text-[13px] font-semibold sm:mt-1 sm:text-lg">
+                <p className="mt-0.5 font-display text-base font-semibold leading-tight sm:mt-1 sm:text-lg">
                   Jussy Original
                 </p>
-                <p className="mt-0.5 text-[9px] uppercase tracking-[0.14em] text-ink/45 sm:text-[10px] sm:tracking-[0.16em]">
+                <p className="mt-0.5 text-[10px] uppercase tracking-[0.12em] text-ink/45 sm:text-[11px] sm:tracking-[0.14em]">
                   Cold-pressed · 100% buah
                 </p>
               </div>

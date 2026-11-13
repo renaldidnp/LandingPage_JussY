@@ -78,9 +78,9 @@
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   opacity: 0.7;
 }
@@ -224,7 +224,7 @@
 @media (max-width: 639px) {
   .eyebrow {
     font-size: 10px;
-    letter-spacing: 0.24em;
+    letter-spacing: 0.18em;
     gap: 0.5rem;
   }
 

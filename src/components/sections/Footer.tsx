@@ -39,7 +39,7 @@ export function Footer() {
         <div className="grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
           <div>
             <p className="eyebrow text-cream/60">Kabar segar</p>
-            <h2 className="mt-5 font-display text-[clamp(3rem,8vw,7.2rem)] font-black leading-[0.95] tracking-[-0.035em]">
+            <h2 className="mt-5 font-display text-[clamp(2.6rem,3.75vw,3.375rem)] font-black leading-[1.02] tracking-[-0.03em]">
               Segar
               <span className="block font-script text-[0.82em] font-normal tracking-normal text-juice">
                 di inbox.
@@ -67,11 +67,11 @@ export function Footer() {
                     if (status !== 'idle') setStatus('idle')
                   }}
                   placeholder="Email kamu"
-                  className="h-12 w-full rounded-full border border-cream/20 bg-transparent px-5 text-base text-cream placeholder:text-cream/35 transition-colors focus:border-juice focus:outline-none sm:flex-1 sm:text-sm"
+                  className="h-12 w-full rounded-full border border-cream/20 bg-transparent px-5 text-base text-cream placeholder:text-cream/35 transition-colors focus:border-juice focus:outline-none sm:flex-1"
                 />
                 <button
                   type="submit"
-                  className="h-12 w-full rounded-full bg-cream px-7 text-[11px] font-semibold uppercase tracking-[0.18em] text-ink transition-colors duration-300 hover:bg-juice sm:w-auto"
+                  className="h-12 w-full rounded-full bg-cream px-7 text-base font-bold leading-none tracking-normal text-ink transition-colors duration-300 hover:bg-juice sm:w-auto"
                 >
                   Kirim
                 </button>
@@ -104,7 +104,7 @@ export function Footer() {
                 />
                 <div className="relative flex h-full min-h-[116px] flex-col justify-between">
                   <div className="flex items-start justify-between gap-3">
-                    <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-cream/65">
+                    <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-cream/65">
                       {social.label}
                     </p>
                     <svg
@@ -122,7 +122,7 @@ export function Footer() {
                       />
                     </svg>
                   </div>
-                  <p className="mt-8 font-display text-base font-semibold leading-tight sm:text-lg">
+                  <p className="mt-8 font-display text-lg font-bold leading-tight sm:text-xl">
                     {social.handle}
                   </p>
                 </div>
@@ -136,7 +136,7 @@ export function Footer() {
             <p className="font-script text-3xl leading-none">{brand.name}</p>
             <p className="mt-2 text-xs text-cream/45">{brand.tagline}</p>
           </div>
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-cream/45">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[11px] font-bold uppercase tracking-[0.14em] text-cream/45">
             {['Instagram', 'TikTok', 'WhatsApp'].map((item) => (
               <a
                 key={item}
@@ -152,7 +152,7 @@ export function Footer() {
           </div>
         </div>
 
-        <p className="mt-10 text-center text-[9px] font-semibold uppercase tracking-[0.3em] text-cream/25">
+        <p className="mt-10 text-center text-[10px] font-bold uppercase tracking-[0.24em] text-cream/25">
           Jussy · Jus cold-pressed dari Bandung
         </p>
       </div>

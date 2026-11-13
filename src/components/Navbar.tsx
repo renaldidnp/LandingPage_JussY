@@ -36,12 +36,12 @@ export function Navbar() {
           <span className="mb-1.5 h-1.5 w-1.5 rounded-full bg-juice" />
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-7 md:flex">
           {nav.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="link-underline -my-3 py-3 font-nav text-[13px] font-bold uppercase tracking-[0.16em] text-ink/70 transition-colors hover:text-ink"
+              className="link-underline -my-3.5 py-3.5 font-nav text-[18px] font-bold uppercase leading-none tracking-normal text-ink/70 transition-colors hover:text-ink"
             >
               {item.label}
             </a>
@@ -51,7 +51,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <a
             href="#kontak"
-            className="hidden rounded-full bg-ink px-5 py-3 text-[12px] font-semibold uppercase tracking-[0.14em] text-cream transition-colors duration-300 hover:bg-juice hover:text-ink sm:inline-flex"
+            className="hidden rounded-full bg-ink px-5 py-3.5 text-base font-bold leading-none tracking-normal text-cream transition-colors duration-300 hover:bg-juice hover:text-ink sm:inline-flex"
           >
             Pesan jus
           </a>
@@ -100,7 +100,7 @@ export function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="flex items-center justify-between rounded-2xl px-4 py-3.5 font-nav text-lg font-bold uppercase tracking-[0.04em] transition-colors hover:bg-ink/5"
+                className="flex items-center justify-between rounded-2xl px-4 py-3.5 font-nav text-[clamp(1.5rem,7vw,2rem)] font-bold uppercase leading-none tracking-normal transition-colors hover:bg-ink/5"
               >
                 {item.label}
                 <span aria-hidden="true" className="text-ink/40">
@@ -111,7 +111,7 @@ export function Navbar() {
             <a
               href="#kontak"
               onClick={() => setOpen(false)}
-              className="mt-1 flex items-center justify-center rounded-2xl bg-ink px-4 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] text-cream"
+              className="mt-1 flex items-center justify-center rounded-2xl bg-ink px-4 py-3.5 text-base font-bold leading-none tracking-normal text-cream"
             >
               Pesan jus
             </a>

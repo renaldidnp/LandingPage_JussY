@@ -118,15 +118,15 @@ function ProductScene({ scene, index }: ProductSceneProps) {
         <div className="scene-shell section-shell relative z-10 flex h-full flex-col pt-[84px] pb-12 sm:pt-[clamp(76px,8vh,110px)] sm:pb-[clamp(66px,8vh,110px)]">
           <header className="flex items-start justify-between gap-6">
             <div>
-              <p className="scene-kicker text-[10px] font-semibold uppercase tracking-[0.3em] opacity-55">
+              <p className="scene-kicker text-[11px] font-bold uppercase tracking-[0.22em] opacity-55">
                 {scene.kicker}
               </p>
-              <h2 className="mt-2 font-display text-[clamp(1.8rem,4.2vw,3.6rem)] font-black uppercase leading-[0.95] tracking-[-0.02em]">
+              <h2 className="mt-2 font-display text-[clamp(1.8rem,5.4vw,3.0625rem)] font-black uppercase leading-[0.98] tracking-[-0.02em]">
                 {scene.title}
               </h2>
             </div>
             <div className="text-right">
-              <p className="font-display text-[clamp(1.3rem,2.4vw,2rem)] font-semibold leading-none">
+              <p className="font-display text-[clamp(1.3rem,2.4vw,2rem)] font-bold leading-none">
                 {String(index + 1).padStart(2, '0')}
                 <span className="opacity-40"> / {String(TOTAL).padStart(2, '0')}</span>
               </p>
@@ -138,7 +138,7 @@ function ProductScene({ scene, index }: ProductSceneProps) {
 
           <div className="scene-grid grid flex-1 items-center gap-5 py-3 sm:gap-6 lg:grid-cols-[1fr_1.05fr_1fr] lg:gap-8">
             <div className="order-2 lg:order-1">
-              <p className="scene-description hidden max-w-[34ch] text-sm leading-relaxed opacity-70 sm:block">
+              <p className="scene-description hidden max-w-[34ch] text-base leading-relaxed opacity-70 sm:block">
                 {scene.description}
               </p>
 
@@ -158,13 +158,13 @@ function ProductScene({ scene, index }: ProductSceneProps) {
                           : 'border-current/20 hover:border-current/50',
                       )}
                     >
-                      <span className="block text-[9px] font-semibold uppercase tracking-[0.2em] opacity-50">
+                      <span className="block text-[10px] font-bold uppercase tracking-[0.18em] opacity-50">
                         {String(itemIndex + 1).padStart(2, '0')}
                       </span>
-                      <span className="mt-1 block text-[13px] font-semibold leading-tight sm:text-sm">
+                      <span className="mt-1 block text-sm font-bold leading-tight sm:text-base">
                         {item.name}
                       </span>
-                      <span className="mt-0.5 block text-[10px] opacity-60">
+                      <span className="mt-0.5 block text-xs opacity-60">
                         {item.tag}
                       </span>
                     </button>
@@ -172,7 +172,7 @@ function ProductScene({ scene, index }: ProductSceneProps) {
                 })}
               </div>
 
-              <p className="scene-hint mt-3 text-[9px] font-semibold uppercase tracking-[0.2em] opacity-45 lg:hidden">
+              <p className="scene-hint mt-3 text-[10px] font-bold uppercase tracking-[0.18em] opacity-45 lg:hidden">
                 Ketuk rasa untuk ganti
               </p>
             </div>
@@ -235,7 +235,7 @@ function ProductScene({ scene, index }: ProductSceneProps) {
                     transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute -bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full border border-current/20 bg-cream/20 px-4 py-2 backdrop-blur-md"
                   >
-                    <span className="text-[9px] font-semibold uppercase tracking-[0.22em] sm:text-[10px]">
+                    <span className="text-[10px] font-bold uppercase tracking-[0.18em] sm:text-[11px]">
                       {activeItem.name} · {activeItem.tag}
                     </span>
                   </motion.div>
@@ -258,7 +258,7 @@ function ProductScene({ scene, index }: ProductSceneProps) {
                   </motion.p>
                 </AnimatePresence>
               </div>
-              <p className="mt-3 text-[10px] font-semibold uppercase tracking-[0.28em] opacity-60">
+              <p className="mt-3 text-[11px] font-bold uppercase tracking-[0.2em] opacity-60">
                 {activeItem.tag}
               </p>
 
@@ -280,7 +280,7 @@ function ProductScene({ scene, index }: ProductSceneProps) {
                 ))}
               </div>
 
-              <p className="mt-8 max-w-[26ch] text-[10px] font-semibold uppercase tracking-[0.22em] opacity-40">
+              <p className="mt-8 max-w-[26ch] text-[11px] font-bold uppercase tracking-[0.18em] opacity-40">
                 Gulir untuk ganti rasa
               </p>
             </div>
