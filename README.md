@@ -1,6 +1,6 @@
 # Jussy — Company Profile
 
-Landing page company profile untuk **Jussy**, brand jus cold-pressed, bergaya **editorial motion scrolling** terinspirasi dari myfrida.com. Dibangun dengan React + TypeScript + Tailwind CSS v4, smooth scroll Lenis, dan animasi Framer Motion.
+Landing page company profile untuk **Jussy**, brand jus cold-pressed, bergaya **editorial motion scrolling**. Dibangun dengan React + TypeScript + Tailwind CSS v4, smooth scroll Lenis, dan animasi Framer Motion.
 
 ## Menjalankan
 
